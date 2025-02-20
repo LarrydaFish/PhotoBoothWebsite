@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Nickel City Clicks</title>
+    <meta property="og:title" content="Nickel City Clicks" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background: var(--dl-color-gray-white);
+
+        fill: var(--dl-color-gray-black);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+      <section id="home">
+      <div class="home-container">
+        <header class="home-header1">
+          <header data-thq="thq-navbar" class="home-navbar-interactive">
+            <div class="home-branding1">
+              <span class="home-text10">Nickel City Clicks</span>
+            </div>
+            <div
+              data-thq="thq-navbar-nav"
+              data-role="Nav"
+              class="home-desktop-menu"
+            >
+              <nav
+                data-thq="thq-navbar-nav-links"
+                data-role="Nav"
+                class="home-nav1"
+              >
+                <div class="home-right">
+                  <nav-links-wrapper class="nav-links-wrapper">
+                    <!--NavLinks component-->
+                    <div class="nav-links-links">
+                      <a href="#about" <span class="navLink"><span>About Us</span></span></a>
+                      <a href="#Reviews" <span class="navLink"><span>Reviews</span></span></a>
+                      <a href="#Pricing"<span class="navLink"><span>Services</span></span></a>
+                    </div>
+                  </nav-links-wrapper>
+                  <div class="home-button1">
+                    <button onclick="window.location.href='mailto:nickelcityclicks@gmail.com?subject=Photo Booth Rental'" class="home-work-with-us1 button">
+                      <span class="home-text11">Get In Touch</span>
+                      <img
+                        alt="image"
+                        src="public/hamburger.svg"
+                        class="home-image10"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </nav>
+            </div>
+            <div data-thq="thq-burger-menu" class="home-burger-menu">
+              <button class="home-work-with-us2 button">
+                <span class="home-text12">Get In Touch</span>
+                <img
+                  alt="image"
+                  src="public/hamburger.svg"
+                  class="home-image11"
+                />
+              </button>
+            </div>
+            <div data-thq="thq-mobile-menu" class="home-mobile-menu">
+              <div
+                data-thq="thq-mobile-menu-nav"
+                data-role="Nav"
+                class="home-nav2"
+              >
+                <div class="home-top">
+                  <div class="home-branding2">
+                    <span class="home-text13">Nickel City Clicks</span>
+                  </div>
+                  <div data-thq="thq-close-menu" class="home-menu-close">
+                    <svg viewBox="0 0 1024 1024" class="home-icon1">
+                      <path
+                        d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <nav
+                  data-thq="thq-mobile-menu-nav-links"
+                  data-role="Nav"
+                  class="home-middle"
+                >
+                  <div class="home-links">
+                    <a href="#about" <span class="navLink"><span>About Us</span></span></a>
+                      <a href="#Reviews" <span class="navLink"><span>Reviews</span></span></a>
+                      <a href="#Pricing"<span class="navLink"><span>Services</span></span></a>
+                  </div>
+                  <button onclick="window.location.href='mailto:nickelcityclicks@gmail.com?subject=Photo Booth Rental'" class="home-work-with-us3 button">
+                    <span class="home-text14">Get In Touch</span>
+                  </button>
+                </nav>
+              </div>
+            </div>
+          </header>
+        </header>
+        <div class="home-hero">
+          <div class="home-hero-image">
+            <img
+              alt="image"
+              src="public/photobooth3.png"
+              class="home-image13"
+            />
+          </div>
+        </div>
+        <section id="about">
+        <div class="home-who">
+          <div class="home-header3">
+            <div class="home-heading1">
+              <h2 class="home-text16">
+                Snap, smile and share the fun at your next event!
+              </h2>
+              <span class="home-text17">
+                quality photo booth rentals for any event
+              </span>
+            </div>
+            <button onclick="window.location.href='mailto:lvandevelde8@gmail.com?subject=Photo Booth Rental'" class="home-button2 button">Let’s Chat</button>
+          </div>
+        </section>
+        </div>
+        </section>
+        <div class="home-section1">
+          <div class="home-case-studies">
+            <div class="home-caption1">
+              <span class="home-text18">Nickel City Clicks</span>
+              <div class="home-date-range">
+                <span class="home-text19">2025</span>
+                <span class="home-text20">——</span>
+                <span class="home-text21"></span>
+              </div>
+            </div>
+            <div class="home-gallery1">
+              <div class="home-row1">
+                <div class="home-case1">
+                  <img
+                    alt="image"
+                    src="public/photobooth2.jpg"
+                    class="home-image15"
+                  />
+                  <div class="home-heading2">
+                    <span class="home-text22">Memories</span>
+                    <span class="home-text23">
+                      Provide your guests with a special memory they will have forever, capturing moments of joy and laughter that they can cherish for years to come. Our photo booth ensures every snapshot is filled with fun, creating keepsakes that will bring smiles long after the event ends.
+                    </span>
+                  </div>
+                </div>
+                <div class="home-case2">
+                  <img
+                    alt="image"
+                    src="public/photobooth1.jpg"
+                    class="home-image16"
+                  />
+                  <div class="home-heading3">
+                    <span class="home-text24">Engagement</span>
+                    <span class="home-text25">
+                      Boost engagement at your event with a customizable photo booth experience your guests will love. With a variety of fun props, backdrops, and digital filters, they can create unique and memorable photos.
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="home-row2">
+                <div class="home-case3">
+                  <img
+                    alt="image"
+                    src="public/props.jpg"
+                    class="home-image17"
+                  />
+                  <div class="home-heading4">
+                    <span class="home-text26">Events</span>
+                    <span class="home-text27">
+                      From weddings to corporate events, our photo booths make every snapshot unforgettable. Your guests can let their personalities shine with fun props and themed backgrounds, adding a unique touch to every photo.
+                    </span>
+                  </div>
+                </div>
+                <div class="home-case4">
+                  <img
+                    alt="image"
+                    src="public/phone.jpg"
+                    class="home-image18"
+                  />
+                  <div class="home-heading5">
+                    <span class="home-text28">Effortless</span>
+                    <span class="home-text29">
+                      Capture memories instantly and share them effortlessly—our photo booths can send photos directly to your phone. With just a tap, guests can upload their pictures to social media or save them for later.
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="home-row3">
+                <div class="home-case5">
+                  <img
+                    alt="image"
+                    src="public/photobooth4.jpg"
+                    class="home-image19"
+                  />
+                  <div class="home-heading6">
+                    <span class="home-text30">Affordable</span>
+                    <span class="home-text31">
+                      Enjoy top quality photo booth fun at a price that won't break the bank. We offer flexible packages that fit any budget, without compromising on the experience. With customizable options and high-end equipment, you get professional-grade photos without the premium price tag.
+                    </span>
+                  </div>
+                </div>
+                <div class="home-case6">
+                  <img
+                    alt="image"
+                    src="public/photobooth5.jpg"
+                    class="home-image20"
+                  />
+                  <div class="home-heading7">
+                    <span class="home-text32">Book with us</span>
+                    <span class="home-text33">
+                      We'd love the opportunity to bring fun, laughter and magic to your next event. Book your high quality photo booth rental today.
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <section id="Reviews"></section>
+          <div class="home-testimonials">
+            <div class="home-header4">
+              <span class="home-caption2">What our clients say</span>
+           </div>
+           <div class="container mt-5">
+            <div class="d-flex justify-content-center py-3">
+              
+              <div class="mr-2">
+              <div class="card">
+              <div class="px-2 py-2">
+                <span class="maintxt">"Nickel City Click's quality photo booth brought a smile to our guests face. Those pictures are still the highlight of our night."</span>
+                <div class="d-flex pt-3">
+                  <div class="ml-2">
+                    <span class="name">Allison</span>
+                      <p class="para">Her Wedding</p>
+                  </div>
+                </div>
+              
+          
+                </div>
+               </div>
+          
+          
+               <div class="card mt-3">
+              <div class="px-2 py-2">
+                <span class="maintxt">"If you are in the need for a photo booth nickel city clicks is your best option."</span>
+                <div class="d-flex pt-3">
+                  <div class="ml-2">
+                    <span class="name">Robert</span>
+                      <p class="para">Corporate Event</p>
+                  </div>
+                </div>
+              
+          
+                </div>
+            </div>
+          
+          
+          
+            </div>
+            <div class="ml-2">
+              
+              <div class="card">
+              <div class="px-2 py-2">
+                <span class="maintxt">"Nickel City Clicks worked with us to ensure we got the best option for our event."</span>
+                <div class="d-flex pt-3">
+                  <div class="ml-2">
+                    <span class="name">Carol</span>
+                      <p class="para">Event Manager</p>
+                  </div>
+                </div>
+              
+          
+                </div>
+            </div>
+          
+          
+            <div class="card mt-3">
+              <div class="px-2 py-2">
+                <span class="maintxt">"I recommend Nickel City Clicks to all of my clients and we never have any issues."</span>
+                <div class="d-flex pt-3">
+                  <div class="ml-2">
+                    <span class="name">Jenny</span>
+                      <p class="para">Wedding Planner</p>
+                  </div>
+                </div>
+              
+          
+                </div>
+               </div>
+          
+            </div>
+          
+          
+          
+            </div>
+            
+          </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-section2">
+          <div class="home-about-us">
+            <div class="home-dna">
+              <span class="home-caption4">Our DNA</span>
+              <span class="home-description2">
+               At this company we are committed to building something truly exceptional. With dedication, hard work, and an unwavering focus on excellence, we strive to ensure the success of our business while delivering outstanding service.
+              </span>
+              <span class="home-description3">
+                Our customers are at the heart of everything we do. Your satisfaction is our priority, our employees are dedicated to creating unforgettable experiences tailored to your needs.
+
+                We are excited to collaborate with you and bring a touch of magic to your guests, making every moment extraordinary.                
+              </span>
+            </div>
+            <div class="home-gallery2">
+              <img
+                alt="image"
+                src="public/IMG_2381.jpg"
+                class="home-image21"
+              />
+            </div>
+            <section id="Pricing"></section>
+            <div class="home-recruit">
+              <h2 class="home-text43">
+                We have multiple different packages to fit your needs. Contact us for more information.
+              </h2>
+              <div class="home-sections">
+                <div class="home-section3">
+                  <span class="home-text44">Day or Night</span>
+                  <span class="home-text45">
+                    We will work with you to ensure you have the photo booth for as long as you need it.
+                  </span>
+                </div>
+                <div class="home-section4">
+                  <span class="home-text46">Customizable Props</span>
+                  <span class="home-text47">
+                    Depending on your event, we can provide different props to fit the theme. We also can offer custom props for that unique touch.
+                  </span>
+                </div>
+                <div class="home-section5">
+                  <span class="home-text48">Anywhere</span>
+                  <span class="home-text49">
+                    We come to you and set up the photo booth wherever you need it. Our high quality photo booth can be setup indoors or outdoors.
+                  </span>
+                </div>
+                <div class="home-section6">
+                  <span class="home-text50">Affordable</span>
+                  <span class="home-text51">
+                    We will do all this and more at industry leading rates. Contact us for a quote and see how we can bring your next event to another level!
+                  </span>
+                </div>
+              </div>
+              <button onclick="window.location.href='mailto:nickelcityclicks@gmail.com?subject=Photo Booth Rental'" class="home-button3 button">
+                <span class="home-text52">Book Your Party Now</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <footer class="home-footer">
+          <div class="home-header6">
+            <a href="#home"><span class="home-branding3">Nickel City Clicks</span></a>
+            <div class="home-socials1">
+              <a
+                href="https://example.com"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link13"
+              >
+                <img
+                  alt="image"
+                  src="public/facebook%20-%20negative.svg"
+                  class="social"
+                />
+              </a>
+              <a
+                href="https://example.com"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link14"
+              >
+                <img
+                  alt="image"
+                  src="public/twitter%20-%20negative.svg"
+                  class="social"
+                />
+              </a>
+              <a
+                href="https://example.com"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link16"
+              >
+                <img
+                  alt="image"
+                  src="public/instagram%20-%20negative.svg"
+                  class="social"
+                />
+              </a>
+             <!-- <a
+                href="https://example.com"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link18"
+              >
+                <img
+                  alt="image"
+                  src="public/youtube%20-%20negative.svg"
+                  class="social"
+                />
+              </a>
+            -->
+            </div>
+          </div>
+          <div class="home-socials2">
+            <div class="home-row5">
+              <a
+                href="https://example.com"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <img
+                  alt="image"
+                  src="public/facebook%20-%20negative.svg"
+                  class="social"
+                />
+              </a>
+              <a
+                href="https://example.com"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <img
+                  alt="image"
+                  src="public/twitter%20-%20negative.svg"
+                  class="social"
+                />
+              </a>
+              <a
+                href="https://example.com"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <img
+                  alt="image"
+                  src="public/instagram%20-%20negative.svg"
+                  class="social"
+                />
+              </a>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>
