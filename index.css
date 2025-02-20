@@ -721,6 +721,8 @@
   padding-left: 170px;
   padding-right: 170px;
   flex-direction: column;
+	padding-bottom: 10%;
+
 }
  
 .home-heading1 {
