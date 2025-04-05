@@ -39,6 +39,10 @@ body {
     padding: 0 20px;
 }
 
+section {
+    scroll-margin-top: 250px;
+}
+
 /* Buttons */
 .btn-primary {
     display: inline-block;
